@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Bortnyak/Bortnyak.github.io.git"
   },
-  "type": "commonjs",
+  "type": "module",
   "author": "Bortniak",
   "license": "ISC",
   "bugs": {
