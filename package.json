@@ -1,0 +1,20 @@
+{
+  "name": "bortnyak.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bortnyak/Bortnyak.github.io.git"
+  },
+  "type": "commonjs",
+  "author": "Bortniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bortnyak/Bortnyak.github.io/issues"
+  },
+  "homepage": "https://github.com/Bortnyak/Bortnyak.github.io#readme"
+}
