@@ -1,5 +1,6 @@
 
 function startTimer() {
+  console.log("Hey, I'm here...");
   const worker = new Worker("timer.js");
   const display = document.querySelector('#time');
   const duration = 5000;
