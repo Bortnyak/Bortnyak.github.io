@@ -54,4 +54,4 @@ class Timer {
   // }
 }
 
-module.exports = Timer;
+export { Timer };
