@@ -1,6 +1,6 @@
 
 
-export function startTimer() {
+function startTimer() {
   console.log("Hey, I'm here...");
   
   const worker = new Worker("src/timer.js");
@@ -11,8 +11,9 @@ export function startTimer() {
   worker.postMessage(workerMessage)
 }
 
-
-export function clickClick() {
+function clickClick() {
   console.log("Click");
   startTimer();
 }
+
+export { startTimer, clickClick }
