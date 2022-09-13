@@ -1,3 +1,5 @@
+
+
 export function startTimer() {
   console.log("Hey, I'm here...");
   
@@ -7,4 +9,10 @@ export function startTimer() {
   const workerMessage = { duration, display };
   
   worker.postMessage(workerMessage)
+}
+
+
+export function clickClick() {
+  console.log("Click");
+  startTimer();
 }
