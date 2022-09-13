@@ -1,4 +1,4 @@
-import { Timer } from "./timer"
+const Timer = requre("./timer.js");
  
 self.addEventListener('message', function(event) {
   const { duration, display} = event;

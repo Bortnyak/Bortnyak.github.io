@@ -1,5 +1,5 @@
 
-export class Timer {
+class Timer {
   duration = null;
   timerId = null;
   remaining = null;
@@ -53,3 +53,5 @@ export class Timer {
   //   this.timerId = setInterval(this.cb, this.remaining);
   // }
 }
+
+module.exports = Timer;
