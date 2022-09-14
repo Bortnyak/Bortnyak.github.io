@@ -16,4 +16,4 @@ function clickClick() {
   startTimer();
 }
 
-export { startTimer, clickClick }
+// export { startTimer, clickClick }
